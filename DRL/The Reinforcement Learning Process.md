@@ -81,3 +81,12 @@ For instance, think about Super Mario Bros: an episode begin at the launch of a 
 the agent must learn to choose the best actions and simultaneously interact with the env.
 
 For instance, an agent that does automated stock trading. For this task, there is no starting point and terminal state. **The agent keeps running until we decide to stop it.**
+
+### exploring / exploiting
+
+*exploring env:* exploring the env by trying random actions in order to find more info abt the env
+*exploiting env:* exploiting known info about the env
+
+**exploring / exploiting tradeoff**
+
+balance the amount of exploring and exploiting the environment. Since we don't know the places where points are maximum when we exploit already known data so we must leverage b/w both exploring and exploiting the environment.
